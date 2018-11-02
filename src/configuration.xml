@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean class="From.Student" id="s1">
+        <constructor-arg value="s001" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="司马懿" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="78" type ="int"></constructor-arg>
+        <constructor-arg value="御史大夫" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="五禽戏" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="220" type="float"></constructor-arg>
+    </bean>
+    <bean class="From.Student" id="s2">
+        <constructor-arg value="s002" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="陈群" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="59" type ="int"></constructor-arg>
+        <constructor-arg value="中书令" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="五品官人法" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="150" type="float"></constructor-arg>
+    </bean>
+    <bean class="From.Student" id="s3">
+        <constructor-arg value="s003" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="曹操" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="48" type ="int"></constructor-arg>
+        <constructor-arg value="司空" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="横槊赋诗" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="300" type="float"></constructor-arg>
+    </bean>
+
+    <bean class="From.Student" id="s4">
+        <constructor-arg value="s004" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="诸葛亮" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="28" type ="int"></constructor-arg>
+        <constructor-arg value="丞相" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="弹琴" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="200" type="float"></constructor-arg>
+    </bean>
+    <bean class="From.Student" id="s5">
+        <constructor-arg value="s005" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="陆逊" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="18" type ="int"></constructor-arg>
+        <constructor-arg value="大都督" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="火攻" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="180" type="float"></constructor-arg>
+    </bean>
+    <bean class="From.Student" id="s6">
+        <constructor-arg value="s006" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="曹丕" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="34" type ="int"></constructor-arg>
+        <constructor-arg value="中郎将" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="游猎" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="240" type="float"></constructor-arg>
+    </bean>
+</beans>
